@@ -1,8 +1,8 @@
 const express = require("express");
 const cors = require("cors");
 const swaggerUi = require("swagger-ui-express");
-const pool = require("./db");
-const swaggerSpec = require("./swaggerConfig"); // Importando o arquivo novo
+const pool = require("./config/db");
+const swaggerSpec = require("./config/swaggerConfig"); // Importando o arquivo novo
 
 const app = express();
 app.use(express.json());
