@@ -14,20 +14,6 @@ O objetivo principal é fornecer um CRUD (Create, Read, Update, Delete) completo
 - **Docker**: Containerização para isolamento do banco de dados e porta 5433.
 - **Swagger**: Documentação interativa para testes da API.
 
-## 📂 Estrutura de Pastas
-
-O projeto segue uma estrutura modular para melhor organização:
-
-Servidor_Backend/
-├── src/
-│ ├── config/ # Configurações de Banco e Swagger
-│ │ ├── db.js
-│ │ └── swaggerConfig.js
-│ └── index.js # Ponto de entrada e rotas CRUD
-├── docker-compose.yml # Configuração dos containers Docker
-├── package.json # Dependências e scripts
-└── README.md # Documentação do projeto
-
 ## 🚀 Como Executar o Projeto
 
 ### Pré-requisitos
@@ -46,18 +32,22 @@ Servidor_Backend/
 
 2. **Subir o banco de dados(Docker)**
 
-   ```docker-compose up -d
+   ```bash
+   docker-compose up -d
 
    ```
 
 3. **Instalar as dependências do Node**
 
-   ```npm install
+   ```bash
+   npm install
 
    ```
 
-4. **Iniciar o servidor\***
-   ```node src/index.js
+4. **Iniciar o servidor**
+
+   ```bash
+   node src/index.js
 
    ```
 
