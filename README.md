@@ -26,8 +26,8 @@ O objetivo principal é fornecer um CRUD (Create, Read, Update, Delete) completo
 1. **Clonar o repositório:**
 
    ```bash
-   git clone [https://github.com/SEU_USUARIO/opt120-backend.git](https://github.com/SEU_USUARIO/opt120-backend.git)
-   cd opt120-backend
+   git clone https://github.com/DanielSuzuki1/opt120_backend.git
+   cd opt120_backend
    ```
 
 2. **Subir o banco de dados(Docker)**
